@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Periodic table</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    </head>
+    <body>
+        <h1>Perdiodic table</h1>
+
+        <div id="listCategories"></div>
+        <div id="periodicTable"></div>
+        <div id="modalAtom">
+            <h2>Atom Name</h2>
+
+            <div>
+                <span>Number</span><span data-text="number"></span>
+                <span>Symbol</span><span data-text="symbol"></span>
+                <span>Category</span><span data-text="category"></span>
+                <span>Atomic mass</span><span data-text="atomic_mass"></span>
+                <span>Source</span><a data-text="source">Wikipedia</a></span>
+                <span>Electron configuration</span><span data-text="electron_configuration_semantic"></span>
+                <span>Electronegativity</span><span data-text="electronegativity_pauling"></span>
+            </div>
+        </div>
+
+        <script src="data/periodic-table.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
